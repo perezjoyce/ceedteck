@@ -18,5 +18,6 @@
 /tests/js/test*
 /tests/css/*
 themes.json
+custom
 .DS_Store
 /.idea
