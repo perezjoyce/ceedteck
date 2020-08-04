@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap')
+
+$global-primary-background: rgb(100, 47, 108)
+$global-secondary-background: rgb(59, 47, 106)
+$global-font-family:  'Source Sans Pro', sans-serif
+
+@import "../scss/variables-theme.scss"
+@import "../scss/mixins-theme.scss"
+@import "../scss/uikit-theme.scss"
+
+
+#navbar .uk-light .uk-button-primary, #navbar .uk-button-primary
+    background-color: $global-primary-background!important
+    border: 1px solid  $global-primary-background
+    color: #fff!important
+
+.uk-navbar-container:not(.uk-navbar-transparent)
+    background-color: rgba(255, 255, 255, 0)!important
+
+    .uk-logo a
+        color: $global-primary-background!important
+
+    .uk-button-primary
+        border: 1px solid #fff!important
+
+#navbar .uk-light .uk-button-primary:hover , #navbar .uk-button-primary:hover
+    background-color: $global-secondary-background!important
+    border: 1px solid white!important
+    color: #fff !important
+
+.uk-light .uk-button-primary:hover 
+    background-color: transparent
+    color: #f8f8f8
+    border: 1px solid #f8f8f8
+
+
+#hero, #hero2
+    height: 100vh
+    background-size: cover
+    background-repeat: no-repeat
+
+    span.uk-text-italic
+        color: #FFC300!important
+        font-weight: bold!important
+
+#hero2
+    background: url("../images/custom/hero.jpeg")
+
+#services 
+    .uk-card-default
+        background: rgba(255,255,255,1)!important
+    
+    .uk-card-body h3
+        font-size: 1.4rem
+        text-transform: uppercase
+        color: rgba(100, 47, 108, .8)!important
+
+    .uk-card-body p
+        font-size: .9rem
+
+
+.uk-card-hover:not(.uk-card-default):not(.uk-card-primary):not(.uk-card-secondary):hover
+    background: #fff
+    box-shadow: 0 14px 25px rgba(0, 0, .5, 0.2)!important
+
+
+strong.hightlight, span.hightlight
+    color: #C70039!important
+    display: inline-block!important
+    font-weight: bold
+
+.uk-border-muted
+    border: 2px solid white
+
+.uk-box-container
+    letter-spacing: 1.5px
+    
+.uk-box 
+    border: 2px solid $global-primary-background
+    padding: 0 1.5px
+
+.uk-gradient-to-right
+    background-image: linear-gradient(to right bottom, #642f6c, #5a2f6c, #502f6c, #462f6b, #3b2f6a)
+
+.uk-gradient-to-left
+    background-image: linear-gradient(to left bottom, #642f6c, #5a2f6c, #502f6c, #462f6b, #3b2f6a)
+
+.uk-mail:after
+    content: attr(data-name) "@" attr(data-domain) "." attr(data-tld)
+
+.uk-call:after
+    content: attr(data-front) " - " attr(data-middle) " - " attr(data-end)
+
+@media (min-width: 320px) and (max-width: 999px)
+    #credo-poster
+        min-height: 38rem!important
+
+@media (min-width: 1000px)
+  #hero2
+    display: none!important
+    height: 0vh!important
+    visibility: hidden!important
