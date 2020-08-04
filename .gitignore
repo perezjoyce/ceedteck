@@ -21,3 +21,4 @@ themes.json
 custom
 .DS_Store
 /.idea
+yarn.lock
