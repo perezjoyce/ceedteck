@@ -11946,6 +11946,10 @@ h3 {
   box-shadow: 0 14px 25px rgba(0, 0, 1, 0.2) !important;
 }
 
+.uk-modal-close-full {
+  background: transparent !important;
+}
+
 strong.hightlight, span.hightlight {
   color: #C70039 !important;
   display: inline-block !important;
