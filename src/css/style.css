@@ -11929,6 +11929,11 @@ h3 {
   background: url("https://res.cloudinary.com/dofqonp6x/image/upload/v1596561179/ceedteck-website/hero_e7iq5b.jpg");
 }
 
+#hero2 > div {
+  height: 100vh;
+  overflow: hidden !important;
+}
+
 #services .uk-card-default {
   background: white !important;
 }
