@@ -11943,6 +11943,27 @@ h3 {
   box-shadow: 0 14px 25px rgba(0, 0, 1, 0.2) !important;
 }
 
+#credo-cards .uk-card-secondary.uk-card-hover:hover {
+  background-color: #3b2f6a;
+  box-shadow: 0 14px 25px rgba(0, 0, 0, 0.4);
+}
+#credo-cards .uk-card-primary.uk-card-hover:hover {
+  background-color: #642f6c;
+  box-shadow: 0 14px 25px rgba(0, 0, 0, 0.4);
+}
+#credo-cards .uk-background-overlay:hover {
+  background: rgba(193, 171, 196, 0.4) !important;
+  box-shadow: 0 14px 25px rgba(0, 0, 1, 0.4) !important;
+}
+#credo-cards .uk-background-overlay {
+  background: rgba(193, 171, 196, 0.3);
+  border: 2px solid transparent;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+#credo-cards .uk-background-overlay .uk-heading-bullet::before {
+  border-left: calc(5px + 0.1em) solid lightgray;
+}
+
 .uk-modal-close-full {
   background: transparent !important;
 }
@@ -11951,14 +11972,6 @@ strong.hightlight, span.hightlight {
   color: #C70039 !important;
   display: inline-block !important;
   font-weight: bold;
-}
-
-.uk-background-overlay {
-  background: rgba(193, 171, 196, 0.3);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-}
-.uk-background-overlay .uk-heading-bullet::before {
-  border-left: calc(5px + 0.1em) solid lightgray;
 }
 
 .uk-box-container {
