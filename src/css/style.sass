@@ -15,7 +15,7 @@ $global-font-family:  'Source Sans Pro', sans-serif
     color: #fff!important
 
 .uk-navbar-container:not(.uk-navbar-transparent)
-    background-color: rgba(255, 255, 255, .2)!important
+    background-color: rgba(255, 255, 255, .9)!important
 
     .uk-logo a
         color: $global-primary-background!important
@@ -58,10 +58,6 @@ $global-font-family:  'Source Sans Pro', sans-serif
         text-transform: uppercase
         color: rgba(100, 47, 108, .8)!important
 
-    .uk-card-body p
-        font-size: .9rem
-
-
 .uk-card-hover:not(.uk-card-default):not(.uk-card-primary):not(.uk-card-secondary):hover
     background: #fff
     box-shadow: 0 14px 25px rgba(0, 0, .5, 0.2)!important
@@ -74,8 +70,12 @@ strong.hightlight, span.hightlight
     display: inline-block!important
     font-weight: bold
 
-.uk-border-muted
-    border: 2px solid white
+.uk-background-overlay
+    background: rgba(193, 171, 196, 0.3)
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08)
+
+    .uk-heading-bullet::before
+        border-left: calc(5px + 0.1em) solid lightgray
 
 .uk-box-container
     letter-spacing: 1.5px
