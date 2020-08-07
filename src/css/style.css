@@ -11890,6 +11890,10 @@ h3 {
   color: #fff !important;
 }
 
+#navbar .uk-logo > a {
+  font-size: 1.25rem;
+}
+
 .uk-navbar-container:not(.uk-navbar-transparent) {
   background-color: rgba(255, 255, 255, 0.9) !important;
 }
@@ -12010,6 +12014,10 @@ strong.hightlight, span.hightlight {
   }
 }
 @media (max-width: 500px) {
+  #navbar .uk-logo > a {
+    font-size: 0.9rem;
+  }
+
   .uk-slideshow-text {
     padding-left: 60px !important;
   }
