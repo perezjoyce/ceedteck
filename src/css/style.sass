@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap')
 
+@font-face
+    font-family: 'Metropolis Bold'
+    src: url('./fonts/Metropolis-Bold.woff2')
+
+@font-face
+    font-family: 'Metropolis Regular'
+    src: url('./fonts/Metropolis-Regular.woff2')
+
+@font-face
+    font-family: 'Metropolis Extra Light'
+    src: url('./fonts/Metropolis-ExtraLight.woff2')
+
 $global-primary-background: rgb(100, 47, 108)
 $global-secondary-background: rgb(59, 47, 106)
 $global-font-family:  'Source Sans Pro', sans-serif
@@ -13,6 +25,15 @@ $global-font-family:  'Source Sans Pro', sans-serif
     background-color: $global-primary-background!important
     border: 1px solid  $global-primary-background
     color: #fff!important
+
+h1, h2
+    font-family: 'Metropolis Bold'!important
+
+h3, p.uk-heading-large
+    font-family: 'Metropolis Regular'!important
+
+small
+    font-family: 'Metropolis Extra Light'!important
 
 #navbar .uk-logo > a
     font-size: 1.25rem
@@ -62,7 +83,10 @@ $global-font-family:  'Source Sans Pro', sans-serif
     
     .uk-card-body h3
         font-size: 1.4rem
-        text-transform: uppercase
+        padding-top: 10px
+        color: rgba(100, 47, 108, .8)!important
+
+    .uk-text-primary
         color: rgba(100, 47, 108, .8)!important
 
 .uk-card-hover:not(.uk-card-default):not(.uk-card-primary):not(.uk-card-secondary):hover
