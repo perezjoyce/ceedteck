@@ -1,8 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap')
 
 @font-face
+    font-family: 'Metropolis Extra Bold'
+    src: url('./fonts/Metropolis-ExtraBold.woff2')
+
+@font-face
     font-family: 'Metropolis Bold'
     src: url('./fonts/Metropolis-Bold.woff2')
+
+@font-face
+    font-family: 'Metropolis Semi Bold'
+    src: url('./fonts/Metropolis-SemiBold.woff2')
+
+@font-face
+    font-family: 'Metropolis Medium'
+    src: url('./fonts/Metropolis-Medium.woff2')
 
 @font-face
     font-family: 'Metropolis Regular'
@@ -26,10 +38,17 @@ $global-font-family:  'Source Sans Pro', sans-serif
     border: 1px solid  $global-primary-background
     color: #fff!important
 
-h1, h2
+h1
+    font-family: 'Metropolis Extra Bold'!important
+    line-height: 1!important
+
+h2
     font-family: 'Metropolis Bold'!important
 
 h3, p.uk-heading-large
+    font-family: 'Metropolis Medium'!important
+
+button, .uk-button
     font-family: 'Metropolis Regular'!important
 
 small
