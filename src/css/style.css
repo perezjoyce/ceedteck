@@ -12031,6 +12031,13 @@ strong.hightlight, span.hightlight {
   font-weight: bold;
 }
 
+.uk-slideshow-items {
+  min-height: 80vh !important;
+}
+.uk-slideshow-items img {
+  min-height: 80vh !important;
+}
+
 .uk-box-container {
   letter-spacing: 1.5px;
 }
@@ -12068,6 +12075,13 @@ strong.hightlight, span.hightlight {
 
   .uk-slideshow-text {
     padding-left: 60px !important;
+  }
+
+  .uk-slideshow-items {
+    min-height: 300px !important;
+  }
+  .uk-slideshow-items img {
+    min-height: 300px !important;
   }
 }
 @media (min-width: 1000px) {
