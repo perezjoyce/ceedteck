@@ -11944,6 +11944,7 @@ small {
 }
 .uk-navbar-container:not(.uk-navbar-transparent) .uk-logo a {
   color: #642f6c !important;
+  font-weight: 600;
 }
 .uk-navbar-container:not(.uk-navbar-transparent) .uk-button-primary {
   border: 1px solid #fff !important;
