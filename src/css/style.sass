@@ -81,9 +81,10 @@ small
     background-size: cover
     background-repeat: no-repeat
 
-    span.uk-text-italic
-        color: #FFC300!important
-        font-weight: bold!important
+    h1
+        span
+            color: #FFC300!important
+            font-weight: bold!important
 
     img
         width: 100vw!important
@@ -147,11 +148,19 @@ strong.hightlight, span.hightlight
         min-height: 80vh!important
 
 .uk-box-container
-    letter-spacing: 1.5px
+    span:first-child, span:last-child
+        letter-spacing: 1.5px!important
+
+    span:first-child
+        padding-right: 2px
+
+    span:last-child
+        padding-left: 2px
     
 .uk-box 
     border: 2px solid $global-primary-background
-    padding: 0 1.5px
+    padding: 0 3px!important
+    letter-spacing: 1.5px!important
 
 .uk-gradient-to-right
     background-image: linear-gradient(to right bottom, #642f6c, #5a2f6c, #502f6c, #462f6b, #3b2f6a)

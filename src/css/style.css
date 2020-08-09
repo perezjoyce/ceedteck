@@ -11966,7 +11966,7 @@ small {
   background-size: cover;
   background-repeat: no-repeat;
 }
-#hero span.uk-text-italic, #hero2 span.uk-text-italic {
+#hero h1 span, #hero2 h1 span {
   color: #FFC300 !important;
   font-weight: bold !important;
 }
@@ -12038,13 +12038,20 @@ strong.hightlight, span.hightlight {
   min-height: 80vh !important;
 }
 
-.uk-box-container {
-  letter-spacing: 1.5px;
+.uk-box-container span:first-child, .uk-box-container span:last-child {
+  letter-spacing: 1.5px !important;
+}
+.uk-box-container span:first-child {
+  padding-right: 2px;
+}
+.uk-box-container span:last-child {
+  padding-left: 2px;
 }
 
 .uk-box {
   border: 2px solid #642f6c;
-  padding: 0 1.5px;
+  padding: 0 3px !important;
+  letter-spacing: 1.5px !important;
 }
 
 .uk-gradient-to-right {
